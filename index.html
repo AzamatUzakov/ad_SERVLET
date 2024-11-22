@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ad_SERVLET</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <main>
+        <header>
+            <div class="leftBox">
+                <a href="#">Новости</a>
+                <a href="#">Продукты</a>
+                <a href="#">Кэшбеки</a>
+                <a href="#">Счет</a>
+                <a href="#">Конфигурация</a>
+            </div>
+            <div class="rigthBox">
+                <p>ad_SERVLET</p>
+            </div>
+        </header>
+
+
+        <div class="bodys">
+            <aside>
+                <h1>Рассылки</h1>
+                <div class="txtBlock">Текст и ссылка (можно ставить цифры до 3000 символов)</div>
+                <select id="country-select">
+                    <option value="ru" data-flag="🇷🇺"><img src="./img/flag.png" alt="">Россия</option>
+                    <option value="us" data-flag="🇺🇸"><img src="./img/flag.png" alt="">США</option>
+                    <option value="fr" data-flag="🇫🇷"><img src="./img/flag.png" alt="">Франция</option>
+                </select><br>
+                <button class="saveBtn">Сохранить</button><br>
+                <button class="addBtn">Добавить еще</button>
+                <br>
+                <br>
+                <div class="file-upload">
+                    <div class="inpFileBox">
+                        <label for="fileInput" class="file-label">Выберите файл</label>
+                        <span id="fileName" class="file-name">Файл не выбран</span>
+                        <input type="file" id="fileInput" class="file-input" />
+                    </div>
+                    <br>
+                    <div class="newsletterItem">
+                        Рассылка 1 контакт 56
+                        <select id="country-selectNewsletter">
+                            <option value="ru" data-flag="🇷🇺"><img src="./img/flag.png" alt="">Россия</option>
+                            <option value="us" data-flag="🇺🇸"><img src="./img/flag.png" alt="">США</option>
+                            <option value="fr" data-flag="🇫🇷"><img src="./img/flag.png" alt="">Франция</option>
+                        </select>
+                    </div>
+
+                    <div class="contantItem">
+                        Рассылка 1 контакт 56
+                        <select id="country-selectContact">
+                            <option value="ru" data-flag="🇷🇺"><img src="./img/flag.png" alt="">Россия</option>
+                            <option value="us" data-flag="🇺🇸"><img src="./img/flag.png" alt="">США</option>
+                            <option value="fr" data-flag="🇫🇷"><img src="./img/flag.png" alt="">Франция</option>
+                        </select>
+                    </div>
+                </div>
+
+                <br>
+
+                <div class="currency-select-wrapper">
+                    <span class="currency-label">К оплате:</span>
+                    <span class="currency-amount">0</span>
+                    <span class="currency-name" id="selectedCurrency">KZT</span>
+                    <div class="currency-arrow"></div>
+                    <select class="currency-select" id="currencySelect">
+                        <option value="KZT">KZT</option>
+                        <option value="USD">USD</option>
+                        <option value="EUR">EUR</option>
+                        <option value="RUB">RUB</option>
+                    </select>
+                </div>
+
+            </aside>
+
+
+
+
+            <br><br><br><br><br>
+            <div class="rightAside">
+
+                <div class="topProgramBox">
+
+                    <div class="watsaapBlock">
+                        <img src="./img/whatsapp.png" alt="">
+
+                        <div class="number-box">
+                            <span class="number">100</span>
+                            <div class="check-container">
+                                <input type="checkbox" id="checkbox" class="checkbox">
+                                <label for="checkbox" class="checkmark"></label>
+                            </div>
+                        </div>
+                        <div class="countersBox">
+                            <img src="./img/remove.png" alt="">
+                            <div class="plusMinBlock">
+                                <img src="./img/minus.png" alt="">
+                                <p class="count">100</p>
+                                <img src="./img/plus.png" alt="">
+                            </div>
+                            <img src="./img/shop.png" alt="">
+                        </div>
+                    </div>
+
+
+
+                    <div class="tgBlock">
+                        <img src="./img/tg.png" alt="">
+
+                        <div class="number-box">
+                            <span class="number">100</span>
+                            <div class="check-container">
+                                <input type="checkbox" id="checkboxtw" class="checkbox">
+                                <label for="checkboxtw" class="checkmark"></label>
+                            </div>
+                        </div>
+                        <div class="countersBox">
+                            <img src="./img/remove.png" alt="">
+                            <div class="plusMinBlock">
+                                <img src="./img/minus.png" alt="">
+                                <p class="count">100</p>
+                                <img src="./img/plus.png" alt="">
+                            </div>
+                            <img src="./img/shop.png" alt="">
+                        </div>
+                    </div>
+
+                    <div class="smsBlock">
+                        <img src="./img/sms.png" alt="">
+
+                        <div class="number-box">
+                            <span class="number">100</span>
+                            <div class="check-container">
+                                <input type="checkbox" id="checkboxth" class="checkbox">
+                                <label for="checkboxth" class="checkmark"></label>
+                            </div>
+                        </div>
+                        <div class="countersBox">
+                            <img src="./img/remove.png" alt="">
+                            <div class="plusMinBlock">
+                                <img src="./img/minus.png" alt="">
+                                <p class="count">100</p>
+                                <img src="./img/plus.png" alt="">
+                            </div>
+                            <img src="./img/shop.png" alt="">
+                        </div>
+                    </div>
+
+                </div>
+                <br><br>
+                <div class="myMailings">
+                    <h1>Мои рассылки</h1><br>
+                    <div class="item">
+                        <div class="info">Знаете ли вы о пылесосе Borch</div>
+                        <div class="btns">
+                            <button class="editBtn">Редактировать</button>
+                            <button class="remove">Удалть</button>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="info">Знаете ли вы о пылесосе Borch</div>
+                        <div class="btns">
+                            <button class="editBtn">Редактировать</button>
+                            <button class="remove">Удалть</button>
+                        </div>
+                    </div><div class="item">
+                        <div class="info">Знаете ли вы о пылесосе Borch</div>
+                        <div class="btns">
+                            <button class="editBtn">Редактировать</button>
+                            <button class="remove">Удалть</button>
+                        </div>
+                    </div><div class="item">
+                        <div class="info">Знаете ли вы о пылесосе Borch</div>
+                        <div class="btns">
+                            <button class="editBtn">Редактировать</button>
+                            <button class="remove">Удалть</button>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+
+        </div>
+
+    </main>
+    <script>
+        // Получаем элементы
+        const currencySelect = document.getElementById('currencySelect');
+        const selectedCurrency = document.getElementById('selectedCurrency');
+
+        // Слушаем изменение значения в select
+        currencySelect.addEventListener('change', function () {
+            selectedCurrency.textContent = currencySelect.value; // Меняем текст на выбранное значение
+        });
+
+
+        const fileInput = document.getElementById('fileInput');
+        const fileNameDisplay = document.getElementById('fileName');
+
+        fileInput.addEventListener('change', () => {
+            const fileName = fileInput.files[0]?.name || 'Файл не выбран';
+            fileNameDisplay.textContent = fileName;
+        });
+
+
+        document.querySelectorAll('.countersBox').forEach((box) => {
+    const minusButton = box.querySelector('.plusMinBlock img:nth-child(1)');
+    const countElement = box.querySelector('.plusMinBlock .count');
+    const plusButton = box.querySelector('.plusMinBlock img:nth-child(3)');
+
+    minusButton.addEventListener('click', () => {
+        let currentValue = parseInt(countElement.textContent, 10);
+        if (currentValue > 0) {
+            countElement.textContent = currentValue - 1;
+        }
+    });
+
+    plusButton.addEventListener('click', () => {
+        let currentValue = parseInt(countElement.textContent, 10);
+        countElement.textContent = currentValue + 1;
+    });
+});
+
+
+    </script>
+</body>
+
+</html>
